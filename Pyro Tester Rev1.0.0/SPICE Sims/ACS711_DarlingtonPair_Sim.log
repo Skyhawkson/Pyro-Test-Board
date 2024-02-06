@@ -1,0 +1,46 @@
+Circuit: * C:\Users\kylew\Documents\GitHub\Lifting-Body\Pyro Tester\SPICE Sims\ACS711_DarlingtonPair_Sim.asc
+
+Limiting fall time of source v1 to 0.0005
+WARNING: Less than two connections to node NC_01.  This node is used by Q1.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Increasing initial diagonal Gmin to 100
+Increasing initial diagonal Gmin to 1000
+Increasing initial diagonal Gmin to 10000
+Increasing initial diagonal Gmin to 100000
+Increasing initial diagonal Gmin to 1e+006
+Initial Gmin=1e+006 failed
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+vernier = 0.25
+Source Step = 0.0177557%
+Starting source stepping with srcstepmethod=1
+Source Step = 3.0303%
+vernier = 0.25
+Source stepping failed
+
+Pseudo transient terminated at 103.151 s, solution accepted ready or not!
+Ignoring empty pin current: Ix(u1:1)
+Ignoring empty pin current: Ix(u1:2)
+Ignoring empty pin current: Ix(u1:1)
+Ignoring empty pin current: Ix(u1:2)
+
+Date: Sun Jun 13 16:23:25 2021
+Total elapsed time: 0.246 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 8657
+traniter = 2102
+tranpoints = 1052
+accept = 1049
+rejected = 12
+matrix size = 33
+fillins = 20
+solver = Normal
+Matrix Compiler1: 2.45 KB object code size  0.4/0.2/[0.2]
+Matrix Compiler2: 3.16 KB object code size  0.3/0.4/[0.2]
+
